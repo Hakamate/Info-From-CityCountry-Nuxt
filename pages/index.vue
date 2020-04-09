@@ -35,11 +35,11 @@
             </div>
           </div>
         </nuxt-link>
-        <nuxt-link to="/meteo" class="flex lg:mx-auto max-w-2xl sm:flex-row sm:items-stretch items-center flex-col rounded border border-gray-400">
+        <nuxt-link to="/country" class="flex lg:mx-auto max-w-2xl sm:flex-row sm:items-stretch items-center flex-col rounded border border-gray-400">
           <img
             class="w-full sm:w-56"
             src="../assets/image/country.jpg"
-            alt="Photo pour météo"
+            alt="Photo pour pays"
           />
           <div class="px-5 py-3 flex flex-col">
             <h2 class="mb-3 text-gray-800">Tout savoir sur le monde</h2>
