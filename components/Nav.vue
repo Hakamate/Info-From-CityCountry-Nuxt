@@ -10,11 +10,6 @@
       <div :class="open ? 'block': 'hidden'" class="w-full flex-grow sm:flex sm:items-center sm:w-auto">
         <div class="text-sm sm:flex-grow">
           <nuxt-link
-            to="/lorem"
-            class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white mr-4">
-            Lorem
-          </nuxt-link>
-          <nuxt-link
             to="/meteo"
             class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white mr-4">
             Meteo
@@ -36,21 +31,13 @@
 </template>
 
 <script>
-  import {mapGetters} from 'vuex'
-
   export default {
-    computed: {
-      ...mapGetters(['isAuthenticated', 'loggedInUser'])
-    },
     data() {
       return {
         open: false,
       }
     },
     methods: {
-      async logout() {
-        await this.$auth.logout()
-      },
       toggle() {
         this.open = !this.open
       }

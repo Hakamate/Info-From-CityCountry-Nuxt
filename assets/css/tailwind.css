@@ -3,19 +3,3 @@
 @import 'tailwindcss/components';
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
-
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
-  color: #545454;
-}
-
-.cardMeteo{
-  border-bottom: 1px solid #2d3748;
-}
-.whather-icon{
-  width: 50px;
-}
-.deg{
-  min-width: 90px;
-}
