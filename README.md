@@ -1,6 +1,6 @@
 # meteo-tailwind-nuxt
 
-> My solid Nuxt.js project
+> Little project to put some services like meteo
 
 ## Build Setup
 
@@ -18,5 +18,5 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+Feel free to contact me if you have any question
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
