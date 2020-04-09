@@ -18,5 +18,5 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
+feel free to contact me if you have any question
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
