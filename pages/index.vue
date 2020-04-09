@@ -38,15 +38,14 @@
         <nuxt-link to="/meteo" class="flex lg:mx-auto max-w-2xl sm:flex-row sm:items-stretch items-center flex-col rounded border border-gray-400">
           <img
             class="w-full sm:w-56"
-            src="../assets/image/weather.jpg"
+            src="../assets/image/country.jpg"
             alt="Photo pour météo"
           />
           <div class="px-5 py-3 flex flex-col">
-            <h2 class="mb-3 text-gray-800">La météo de demain</h2>
+            <h2 class="mb-3 text-gray-800">Tout savoir sur le monde</h2>
             <p class="text-gray-700">
-              Une application simple, permettant d'obtenir la météo dans le monde
-              entier et en direct. Un bon moyen de prévoir ses sorties au ski, à
-              la mer ou même ses vacances.
+              Une application permettant de récupérer certaines informations concernant un pays ciblé.
+              Cela peut permettre de faire un quiz pays/Capital ou un juste prix du nombre d'habitants.
             </p>
             <div class="mt-auto flex items-center pt-3">
               <img
