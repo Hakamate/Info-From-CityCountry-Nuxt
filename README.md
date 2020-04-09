@@ -1,6 +1,6 @@
 # meteo-tailwind-nuxt
 
-> My solid Nuxt.js project
+> Little project to put some service like meteo or othersthings
 
 ## Build Setup
 
