@@ -1,7 +1,7 @@
 {
-  "name": "meteo-tailwind-nuxt",
+  "name": "hakamate-nuxt-tailwind",
   "version": "1.0.0",
-  "description": "My solid Nuxt.js project",
+  "description": "Build app with many functionalities",
   "author": "Thomas Clement",
   "private": true,
   "scripts": {
@@ -12,9 +12,11 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.9.7",
+    "@nuxtjs/firebase": "^5.0.7",
+    "firebase": "^7.14.0",
     "less": "^3.11.1",
     "less-loader": "^5.0.0",
-    "nuxt": "^2.0.0"
+    "nuxt": "^2.12.2"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^1.0.0"
