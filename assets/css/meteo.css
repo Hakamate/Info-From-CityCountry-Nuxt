@@ -1,0 +1,9 @@
+.cardMeteo {
+    border-bottom: 1px solid #2d3748;
+  }
+  .whather-icon {
+    width: 50px;
+  }
+  .deg {
+    min-width: 90px;
+  }
