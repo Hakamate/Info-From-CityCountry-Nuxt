@@ -12,12 +12,12 @@
           <nuxt-link
             to="/meteo"
             class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white mr-4">
-            Meteo
+            Weather
           </nuxt-link>
           <nuxt-link
             to="/country"
             class="no-underline block mt-4 sm:inline-block sm:mt-0 text-teal-lighter hover:text-white mr-4">
-            Pays
+            Information
           </nuxt-link>
         </div>
       </div>

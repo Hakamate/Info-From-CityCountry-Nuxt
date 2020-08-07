@@ -1,7 +1,23 @@
-# meteo-tailwind-nuxt
+# H-Apps
+![Weather Screen](https://i.ibb.co/DGkG1MP/H-apps.jpg)
 
-> Little project to put some services like meteo
+**H-Apps** is a little project to put some services like weather
 
+## Weather
+A simple application, to get the weather in the whole world and in live. A good way to plan your hollydays or specific events
+
+## Information
+An application to retrieve certain information from a targeted country. This can allow you to do a country / capital quiz or find the correct number of citizens.
+
+## Technologies
+### Frameworks
+- NuxtJS (Vuejs Framework --> Frontend)
+- Tailwind (CSS Framework --> Style)
+
+- Weatherbit (Weather API)
+- Restcountries (Country API)
+
+### APIs          
 ## Build Setup
 
 ```bash
@@ -18,5 +34,4 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-Feel free to contact me if you have any question
 

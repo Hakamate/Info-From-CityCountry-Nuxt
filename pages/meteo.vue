@@ -8,7 +8,7 @@
                v-model="city"
                type="city"
                name="city"
-               placeholder="Veuillez choisir une ville"
+               placeholder="Select a City"
         >
       </form>
       <div class="grid sm:gap-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
@@ -46,7 +46,7 @@
     },
     methods:{
       getCityWeather: function () {
-        axios.get(`https://api.weatherbit.io/v2.0/forecast/hourly?city=${this.city}&key=6b32c9bff95f4ba1bd599139b3f50c8c&hours=${this.count}`)
+        axios.get(`https://api.weatherbit.io/v2.0/forecast/hourly?city=${this.city}&key=e0e13d8fd25d4930afedc4c6766eda26&hours=${this.count}`)
           .then(response => {
             this.globalData = response.data.data;
           })
