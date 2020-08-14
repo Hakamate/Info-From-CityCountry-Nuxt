@@ -1,7 +1,7 @@
 # H-Apps
 ![Weather Screen](https://i.ibb.co/DGkG1MP/H-apps.jpg)
 
-**H-Apps** is a little project to group services like weather
+**H-Apps** is a little project to group services like weather or country informations
 
 ## Weather
 A simple application, to get the weather in the whole world and in live. A good way to plan your hollydays or specific events
